@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<title>
+    NETFLIX CLONE 
+</title>
+<link rel="icon" type="image/jpg."
+href="IMAGES/logo.png">
+<link rel="stylesheet" href="style.css"/>
+<style>
+    *{
+        margin:10;
+        box-sizing: border-box;
+        font-family:"Bradley Hand ITC" ;
+    }
+    li{
+        color:white
+    }
+    #logo{
+        width:100px;
+        height:30px;
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-right:20px ;
+    }
+    #nav-container{
+        display:inline-block;
+    }
+    li.nav-item{
+        display:inline;
+        margin-right:100px;
+        font-size:28px;
+    }
+    #header{
+        position: fixed;
+        top: 10px;
+        left:10px;
+        z-index:1;
+        width:100%;
+    }
+    #main{
+        width:100vw;
+        background-color:black;
+        padding-top: 120px;
+        /*background-image: url("https://t3.ftcdn.net/jpg/05/34/95/20/360_F_534952050_wVcVTV5Fee2kKqU09ge5TJaxRUpLaeim.jpg");
+    background-size: contain;*/
+    }
+    #banner-image{
+        width: 100vw;
+        height:auto;
+        position: absolute;
+        top:0;
+        left:0;
+    }
+    #nav-container{
+        position: absolute;
+        top:10px;
+    
+      
+    }
+    #banner-content{
+        z-index:100;
+        position:absolute;
+        top:30%;
+        left:2%;
+        width: 600px;
+        color: aliceblue;
+        width:30;
+        }
+        #banner-heading-image,#Sbanner-heading{
+          margin-bottom: 20px;
+          font-size: xx-large;
+  
+        }
+        #banner-para-head{
+            font-family:"monotype corsiva";
+            font-size:x-large;
+        }
+        #action-buttons-container {
+  position: absolute;
+  padding: 2px 8px;         /* Fixed: Correct syntax for padding */
+  margin: 0 15px;
+  border: none;
+  font-size: 40px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;  /* Optional: refined transition */
+  margin-left: 1px;
+  cursor: pointer;
+}
+
+</style>
+</head>
+
+<body>
+    <div id="header">
+            <img id="logo" src="IMAGES/netflix-logo-red-background-rbt3azw93fwahji6.jpeg"/>
+     <div id="nav-container">
+    <ul>
+            <li class="nav-item">Home </li>
+            <li class="nav-item">Tv Shows </li>
+            <li class="nav-item">New & Popular</li>
+            <li class="nav-item"> My List </li>
+            <li class="nav-item">Browse By Language </li>
+            
+</ul>
+</div>
+<div id="icon-container">
+<i class="fas fa-search"></i>
+    <i class="fas fa-bell"></i>
+    <i class="fas fa-user-circle"></i>
+    </div>
+</div>
+<div id="main">
+    <img id="banner-image"
+    src="https://t3.ftcdn.net/jpg/05/34/95/20/360_F_534952050_wVcVTV5Fee2kKqU09ge5TJaxRUpLaeim.jpg"/>
+    <div id="banner-content">
+           <img id="banner-heading-image"
+    src="IMAGES/spderman.jpeg"/>
+
+    <h1 id="banner-heading">THE AMAZING SPIDERMAN 2</h1> 
+
+    <p id="banner-para-head">After Peter Parker is bitten by a genetically altered spider, he gains newfound, spider-like powers and ventures out to save the city from the machinations of a mysterious reptilian foe.
+
+    </p>
+
+    <div id="action-buttons-container" style="margin-top:0.0001px;">
+    <button style="background-color:transparent; height:50px ; width:100px ;  border-radius: 25px;
+            border:2px solid white; color:white;font-size:18px;">PLAY</button>
+        <button style="background-color:transparent ; height:50px ; width:150px;  border-radius: 25px;
+            border:2px solid white; color:white;font-size: 18px;">MORE INFO</button>
+</div>
+
+<div id="content-row">
+    <h3 style="color: white; margin-top: 98px; margin-left: 1px;font-size:40px;">
+        
+        You Might Like</h3>
+        <div class="row-container horizontal-scroll">
+        <div class="content"><img src="IMAGES/images.jpeg"/></div>
+        <div class="content"><img src="IMAGES/images (1).jpeg" /></div>
+        <div class="content"><img src="IMAGES/images (2).jpeg"/></div>
+        <div class="content"><img src="IMAGES/images (3).jpeg"/></div>
+        <div class="content"><img src="IMAGES/download (1).jpeg"/></div>
+        <div class="content"><img src="IMAGES/download (2).jpeg"/></div>
+        <div class="content"><img src="IMAGES/download (3).jpeg"/></div>
+        <div class="content"><img src="IMAGES/download (4).jpeg"/></div>
+        <div class="content"><img src="IMAGES/download.jpeg"/></div>
+        <div class="content"><img src="IMAGES/1.jpeg"/></div>
+        <div class="content"><img src="IMAGES/2.jpeg"/></div>
+</div>
+        
+</div>
+
+    </div>
+   
+    </div>
+       </div>
+
+</body>
+
+</html>

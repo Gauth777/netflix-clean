@@ -1,0 +1,84 @@
+body{
+  margin: 0;
+  background-color: black;
+  color: white;
+}
+#content-row {
+    color: white;
+    margin-top: 50px;
+    background-color: black;
+    padding-bottom: 20px;
+  }
+  .horizontal-scroll {
+    display: flex;
+    overflow-x:auto;
+    white-space: nowrap;
+    gap: 15px;
+    padding: 10px 20px;
+    width: 100vw;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+  .horizontal-scroll ::-webkit-scrollbar{
+    height:8px;}
+    .horizontal-scroll ::-webkit-scrollbar-thumb{
+      background: #888;
+      border-radius: 4px;}
+      .horizontal-scroll::-webkit-scrollbar-track {
+        background: #222;}
+
+  .horizontal-scroll .content{
+    flex:0 0 auto;
+  }
+  
+  .horizontal-scroll img{
+    width:180px;
+    height:270px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  .horizontal-scroll img:hover {
+    transform: scale(1.1); /* Slight zoom */
+    transition: transform 0.3s ease; /* Smooth transition */
+    cursor: pointer; /* Cursor changes on hover */
+    box-shadow: 0 4px 12px rgba(255, 255, 255, 0.3); /* Optional: glow */
+}
+  #banner-heading-image{
+    width: 450px;
+    height: auto;
+    margin-bottom: 20px;
+    display: block;
+    margin-left: 0;
+    margin-top: -100px;
+  }
+  #header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: black;
+    z-index: 999;
+  }
+  
+  #nav-container{
+    margin-left: 350px;
+    font: size 20px;
+  }
+  .nav-item{
+    font-weight: 660;
+    cursor: pointer;
+    font-family: "aerial black";
+  }
+  
+  #icon-container {
+    display: flex;
+    gap: 20px;
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+    margin-left: 1020px;
+
+  }
